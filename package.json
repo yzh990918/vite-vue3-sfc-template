@@ -2,7 +2,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "eslint --ext .js,.jsx,.vue,.ts,.tsx src && vite",
-    "build": "jest && eslint --ext .js,.jsx,.vue,.ts,.tsx src && vue-tsc --noEmit && vite build",
+    "build": "eslint --ext .js,.jsx,.vue,.ts,.tsx src && vue-tsc --noEmit && vite build",
     "serve": "vite preview",
     "lint": "eslint --ext .js,.jsx,.vue,.ts,.tsx src",
     "prepare": "husky install",
