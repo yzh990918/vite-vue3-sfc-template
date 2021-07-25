@@ -1,27 +1,30 @@
-# Vue 3 + Typescript + Vite
+## 介绍
 
-This template should help get you started developing with Vue 3 and Typescript in Vite.
+一个综合性 Vue3.x 综合模板
 
-## Recommended IDE Setup
+- 编程语言：[TypeScript](https://www.typescriptlang.org/zh/)
+- 构建工具：[Vite 2.x](https://cn.vitejs./dev/)
+- 前端框架：[Vue 3.x](https://v3.cn.vuejs.org/)
+- 路由工具：[Vue Router 4.x](https://next.router.vuejs.org/zh/index.html)
+- 状态管理：[Pinia](https://pinia.esm.dev/)
+- CSS 预编译：[Stylus](https://stylus-lang.com/) / [Sass](https://sass.bootcss.com/documentation) / [Less](http://lesscss.cn/)
+- HTTP 工具：[Axios](https://axios-http.com/)
+- Git Hook 工具：[husky](https://typicode.github.io/husky/#/) + [lint-staged](https://github.com/okonet/lint-staged)
+- 代码规范：[EditorConfig](http://editorconfig.org/) + [Prettier](https://prettier.io/) + [ESLint](https://eslint.org/) 
+- 单元测试：[vue-test-utils](https://next.vue-test-utils.vuejs.org/) + [jest](https://jestjs.io/) + [vue-jest](https://github.com/vuejs/vue-jest) + [ts-jest](https://kulshekhar.github.io/ts-jest/)
 
-[VSCode](https://code.visualstudio.com/) + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur). Make sure to enable `vetur.experimental.templateInterpolationService` in settings!
+> 在线预览该工程：[vite-vue3-sfc-template](https://251205668.github.io/vite-vue3-sfc-template/#/)
+>
+> 为此我还准备了这些常用模板
+>
+> - Vue2.x + vite 模板
+>   - TSX + decorator能力：[vite-vue2-tsx-start](https://github.com/251205668/vite-vue2-start/tree/tsx-decorator)
+>   - SFC + decorator能力：[vite-vue2-start](https://github.com/251205668/vite-vue2-start)
+> - Vue3.x + vite 模板
+>   - TSX + composition-api能力：[vite-vue3-start](https://github.com/251205668/vite-vue3-start)
+>   - SFC + composition-api能力：[vite-vue3-sfc-template](https://github.com/251205668/vite-vue3-sfc-template)
 
-### If Using `<script setup>`
+## TODO
 
-[`<script setup>`](https://github.com/vuejs/rfcs/pull/227) is a feature that is currently in RFC stage. To get proper IDE support for the syntax, use [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) instead of Vetur (and disable Vetur).
-
-## Type Support For `.vue` Imports in TS
-
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can use the following:
-
-### If Using Volar
-
-Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
-
-### If Using Vetur
-
-1. Install and add `@vuedx/typescript-plugin-vue` to the [plugins section](https://www.typescriptlang.org/tsconfig#plugins) in `tsconfig.json`
-2. Delete `src/shims-vue.d.ts` as it is no longer needed to provide module info to Typescript
-3. Open `src/main.ts` in VSCode
-4. Open the VSCode command palette
-5. Search and run "Select TypeScript version" -> "Use workspace version"
+- [ ] 前端工程模板 cli 自动化
+- [ ] Vite 迁移实战落地
